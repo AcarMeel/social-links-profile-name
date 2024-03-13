@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/static/Inter-Bold.ttf") format("ttf"), url("../assets/fonts/static/Inter-Regular.ttf") format("ttf"), url("../assets/fonts/static/Inter-SemiBold.ttf") format("ttf");
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+body .card {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 32px 52px;
+}
+@media screen and (max-width: 768px) {
+  body .card {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+body .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .card .card-content img {
+  border-radius: 100%;
+  width: 100px;
+  height: auto;
+}
+body .card .card-content h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 4px;
+}
+body .card .card-content p.subtitle {
+  color: hsl(75, 94%, 57%);
+  margin: 4px 0 0 -42px;
+}
+body .card .card-content p.legend {
+  color: hsl(0, 0%, 100%);
+  margin-top: 32px;
+}
+body .card .card-content a.button {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  padding: 12px 0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+body .card .card-content a.button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition: all 0.5s ease-in-out;
+}
+body .attribution {
+  color: hsl(0, 0%, 100%);
+  margin: 24px 0;
+}
+body .attribution a {
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
